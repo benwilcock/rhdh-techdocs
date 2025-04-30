@@ -1,0 +1,47 @@
+###############################
+# SYSTEMS
+###############################
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: red-hat-developer-hub
+  title: Red Hat Developer Hub
+  description: |
+    Red Hat Developer Hub (RHDH) is a developer portal that provides a single place for developers to find and use Red Hat's open source projects, tools, and services. It is designed to help developers discover, learn about, and use Red Hat's open source technologies.
+  tags:
+    - developer-hub
+    - rhdh
+  links:
+    - url: https://red.ht/rhdh
+      title: RHDH Homepage
+      icon: star
+      type: website
+    - url: https://developers.redhat.com/blog
+      title: Red Hat Developer Blog
+      icon: catalog
+      type: blog
+    - url: https://docs.redhat.com/fr/documentation/red_hat_developer_hub/
+      title: RHDH Documentation
+      icon: docs
+      type: docs
+    - url: https://issues.redhat.com/browse/RHIDP
+      title: RHDH Jira
+      icon: help
+      type: jira
+    - url: https://github.com/redhat-developer/rhdh-local
+      title: RHDH Local Source Code
+      icon: github
+      type: sourcecode
+    - url: https://youtu.be/LB1w8hjBt5k?si=2LxmEtIxIyAKcHx6
+      title: RHDH Video Overview (YouTube)
+      type: video
+      icon: YouTube
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: benwilcock/rhdh-techdocs
+spec: 
+  owner: user:default/user
+  type: product
+  lifecycle: production
+  profile:
+    displayName: Red Hat Developer Hub
