@@ -1,4 +1,4 @@
-Red Hat Developer Hub (RHDH) Scaffolder, or "template engine" is one of the most powerful tools in RHDH for quickly and consistently creating new software components, services, documentation sites, or any other standard project types your organization uses.
+Red Hat Developer Hub's Scaffolder, or "template engine" is one of its most powerful features. Templates help you quickly and consistently create new software components, services, documentation sites, or any other standard project types that your organization uses.
 
 Think of Templates as pre-configured blueprints. Instead of manually setting up boilerplate code, configuration files, and repository structures every time you start something new, you can use a Template to generate the basic structure automatically.
 
