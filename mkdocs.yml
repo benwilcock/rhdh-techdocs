@@ -1,4 +1,4 @@
-site_name: rhdh-local
+site_name: "Red Hat Developer Hub"
 site_description: RHDH Local
 site_author: user:user
 docs_dir: docs
@@ -6,10 +6,10 @@ plugins:
   - techdocs-core
 nav:
   - "About Red Hat Developer Hub": index.md
-  - "Highlights Of Red Hat Developer Hub": features.md
-  - "Using Red Hat Developer Hub":
+  - "Red Hat Developer Hub's Features":
     - "Software Catalog": catalogs.md
     - "Templates": templates.md
+  - "Red Hat Developer Hub's Benefits": features.md
   - "Tips & Tricks":
     - "Top 10 Tips For Better Templates": ten_template_tips.md
     - "Making Your TechDocs More Appealing": extensions.md
