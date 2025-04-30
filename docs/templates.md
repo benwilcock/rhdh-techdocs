@@ -1,6 +1,6 @@
-Red Hat Developer Hub's Scaffolder, or "template engine" is one of its most powerful features. Templates help you quickly and consistently create new software components, services, documentation sites, or any other standard project types that your organization uses.
+Red Hat Developer Hub's Scaffolder, or "template engine" is one of its most powerful features. Templates (sometimes referred to as "Golden Path Templates") help your entire team to quickly and consistently create new software components, services, documentation sites, or any other standard project types that your organization uses.
 
-Think of Templates as pre-configured blueprints. Instead of manually setting up boilerplate code, configuration files, and repository structures every time you start something new, you can use a Template to generate the basic structure automatically.
+Think of Templates as pre-configured blueprints. Instead of manually setting up boilerplate code, configuration files, preferred libraries/dependencies, and repository structures every time you start something new, you can use a Template to generate the basic structure automatically.
 
 ---
 
