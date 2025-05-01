@@ -9,6 +9,7 @@ nav:
   - "Red Hat Developer Hub's Features":
     - "Software Catalog": catalogs.md
     - "Templates": templates.md
+    - "TechDocs": techdocs.md
   - "Red Hat Developer Hub's Benefits": features.md
   - "Tips & Tricks":
     - "Top 10 Tips For Better Templates": ten_template_tips.md
