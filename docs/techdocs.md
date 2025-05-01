@@ -82,8 +82,6 @@ spec:
 1. Ensure your service is registered in the Red Hat Developer Hub (see the [Adding An Entry To The Software Catalog](catalogs.md#adding-an-entry-to-the-software-catalog)).
 1. Navigate to the component in the portal and verify that the "Docs" tab displays your TechDocs.
 
-https://rhdh.wibbles.duckdns.org/docs/default/system/red-hat-developer-hub/catalogs/
-
 ## Additional Tips
 
 * **Keep It Simple**: Write clear and concise documentation.
