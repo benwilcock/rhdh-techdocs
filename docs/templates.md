@@ -87,7 +87,7 @@ Creating a new template involves following tasks:
 
 ## Additional Documentation
 
-For more detailed instructions on writing templates and best practices, refer to the CBCF Backstage documentation:
+For more detailed instructions on writing templates and best practices, refer to the CNCF Backstage documentation:
 
 - [Backstage Software Templates Guide](https://backstage.io/docs/features/software-templates/)
 - [Best Practices for Templates](https://developers.redhat.com/articles/2025/03/17/10-tips-better-backstage-software-templates)
