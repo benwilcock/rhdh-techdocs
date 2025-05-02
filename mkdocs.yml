@@ -6,15 +6,12 @@ plugins:
   - techdocs-core
 nav:
   - "About Red Hat Developer Hub": index.md
+  - "Red Hat Developer Hub's Benefits": features.md
   - "Red Hat Developer Hub's Features":
     - "Software Catalog": catalogs.md
     - "Templates": templates.md
     - "TechDocs": techdocs.md
-  - "Red Hat Developer Hub's Benefits": features.md
   - "Tips & Tricks":
     - "Top 10 Tips For Better Templates": ten_template_tips.md
     - "Making Your TechDocs More Appealing": extensions.md
   - "Comparing Red Hat Developer Hub to CNCF Backstage": comparison.md
-
-
-  
