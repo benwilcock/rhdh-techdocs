@@ -16,7 +16,7 @@ Here you'll find links to documentation, support, source code, and other useful 
     You can browse and download the source code for Red Hat Developer Hub on [GitHub](https://github.com/redhat-developer/rhdh).
 
 !!! tip "Develop Locally with RHDH"
-    The [RHDH Local](https://github.com/redhat-developer/rhdh-local) initiative helps you plan, develop, test, and optimise your rollout of Red Hat Developer Hub by providing a local environment where you can quickly innovate and iterate on your config, catalogs, templates, apis, techdocs, and plugins. 
+    [RHDH Local](https://github.com/redhat-developer/rhdh-local) helps you plan, develop, test, and optimise your rollout of Red Hat Developer Hub by providing a local environment where you can quickly innovate and iterate on your config, catalogs, templates, apis, techdocs, and plugins. 
 
 !!! info "YouTube"
     The [Red Hat Developer channel on YouTube](https://www.youtube.com/channel/UC7noUdfWp-ukXUlAsJnSm-Q) has information about many of Red Hat's developer products including Red Hat Developer Hub.
