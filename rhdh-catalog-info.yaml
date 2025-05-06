@@ -39,6 +39,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: benwilcock/rhdh-techdocs
+    jira/project-key: RHIDP
 spec: 
   owner: user:default/user
   type: product
