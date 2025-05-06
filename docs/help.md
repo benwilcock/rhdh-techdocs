@@ -1,3 +1,4 @@
+Here you'll find links to documentation, support, source code, and other useful materials to assist you in getting the most out of your Red Hat Developer Hub experience.
 
 !!! info "Learn More About Red Hat Developer Hub"
     The Red Hat Developer website has more information about the Red Hat Developer Hub enterprise grade internal developer portal See [here](https://red.ht/rhdh).
