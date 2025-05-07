@@ -1,5 +1,7 @@
 TechDocs is a documentation feature integrated into the Red Hat Developer Hub. It allows developers to create, manage, and view technical documentation directly within the developer portal. By centralizing documentation, TechDocs ensures that teams have easy access to up-to-date information, improving collaboration and reducing time spent searching for resources.
 
+![A TechDocs List in RHDH](./images/rhdh-techdocs.jpg){ width="850" }
+
 ## Why Use TechDocs?
 
 * **Centralized Documentation**: All your technical documentation in one place.
