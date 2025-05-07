@@ -6,11 +6,11 @@ plugins:
   - techdocs-core
 nav:
   - "Welcome": index.md
-  - "Benefits": features.md
   - "Features":
     - "Software Catalog": catalogs.md
     - "Templates": templates.md
     - "TechDocs": techdocs.md
+  - "Benefits": features.md
   - "Tips & Tricks":
     - "Top 10 Tips For Better Templates": ten_template_tips.md
     - "Making Your TechDocs More Appealing": extensions.md
