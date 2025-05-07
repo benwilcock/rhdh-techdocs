@@ -1,6 +1,6 @@
 Red Hat Developer Hub's Software Catalog is a central place where developers can discover, explore, and understand all the software components, systems, and other assets that are available within your organization. Think of it as a comprehensive inventory of services, libraries, websites, coding projects, documentation, databases, APIs, and more.
 
-![The Software Catalog in RHDH](./images/rhdh-software-catalog.jpg){ width="850" }
+![The Software Catalog in RHDH](./images/rhdh-software-catalog.png){ width="850" }
 
 By using the software catalog, you can:
 
