@@ -1,6 +1,6 @@
-Choosing the right internal developer portal (IDP) is a critical decision for engineering teams aiming to improve their developer experience, streamline software delivery, and adopt DevOps best practices. CNCF Backstage has become a popular open-source framework for building IDPs, but it often requires significant customization, manual plugin integration, and ongoing maintenance effort.
+Choosing the right internal developer portal (IDP) is a critical decision for platform engineering teams. Most are looking to improve their developer experience, streamline software delivery, and adopt DevOps best practices. CNCF Backstage has become a popular open-source framework for building IDPs, but getting it right demands significant customization, manual plugin integration, and ongoing maintenance effort.
 
-Red Hat Developer Hub, built on top of Backstage, offers an enterprise-ready alternative. It provides a curated, fully supported, and production-hardened solution out of the box — eliminating many of the complexities associated with a DIY Backstage setup. The matrix below highlights key differences to help enterrpise platform engineering teams to figure out which solution best aligns best with their specific needs.
+Red Hat Developer Hub, built on top of Backstage, offers a low maintenance enterprise-ready alternative. It's a carefully curated, fully supported, and production-hardened solution that's ideal for platform teams hoping to reduce the engineering burden associated with a CNCF Backstage. The matrix below highlights key differences between Red Hat Developer Hub and CNCF Backstage - so you can figure out which solution best aligns with your specific needs.
 
 ## Feature Comparison
 
