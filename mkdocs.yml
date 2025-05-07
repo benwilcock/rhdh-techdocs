@@ -14,5 +14,5 @@ nav:
   - "Tips & Tricks":
     - "Top 10 Tips For Better Templates": ten_template_tips.md
     - "Making Your TechDocs More Appealing": extensions.md
-  - "Comparison with CNCF Backstage": comparison.md
+    - "RHDH vs CNCF Backstage": comparison.md
   - "Help & Resources": help.md
