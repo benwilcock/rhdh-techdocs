@@ -99,15 +99,15 @@ You can align and resize images.
 
 === "Image LEFT"
 
-    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left width="300" }
 
 === "Image RIGHT"
 
-    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right width="300" }
 
 === "Image RESIZE"
 
-    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right width="200" }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right width="100" }
 
 You can add captions to your images.
 
