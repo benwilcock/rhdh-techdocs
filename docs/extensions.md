@@ -18,6 +18,9 @@ There are lots of types to choose from. You don't have to add a title to an admo
 !!! note "This is a Note Card"
     This callout contains a note.
 
+!!! tip "This is a Tip Card"
+    This callout contains a warning.
+
 ???+ question "This Question Can Be Contracted"
     This is expanded by default (but can be contracted).
 
@@ -48,10 +51,9 @@ Particularly useful for code blocks for different programming languages or platf
 
 ## Buttons
 
-[Subscribe to our newsletter](#){ .md-button }
+You can add buttons to your pages for great looking calls-to-action!
 
-!!! note "More diagrams and examples"
-    You can find much more information about PlantUML and samples to try on their [website](https://plantuml.com/). Use the links at th top of the page for samples.
+[Subscribe to our newsletter](#){ .md-button }
 
 ## Footnotes
 
@@ -171,7 +173,9 @@ Link with tooltip (using the separate 'reference' syntax).
 
 ## Download Links
 
-[A Download Link](./images/backstage-logo-cncf.svg){: download }
+Linking to downloads is easy.
+
+[A Download Link (image)](./images/backstage-icon-color.svg){: download }
 
 ## Abbreviations & Acronyms
 
@@ -181,7 +185,7 @@ Define an abbreviation once and wherever it appears on the page it will be under
 
 ## Video
 
-Add an iFrame containing your video clip into your TechDoc.
+You can add an iFrame containing a video clip from YouTube or any other media site into your TechDoc.
 
 <iframe
   width="672"
@@ -192,21 +196,22 @@ Add an iFrame containing your video clip into your TechDoc.
   allow="picture-in-picture"
   allowfullscreen></iframe>
 
-Add the video hosting site as an `allowedIframeHost` in the `app-config.yaml` (requires an admin's help):
+??? warning "Adding Video Requires Additional RHDH Configuration"
+    Your admin must add the media hosting site as an `allowedIframeHost` in the `app-config.yaml`:
 
-```yaml
-techdocs:
-  sanitizer:
-    allowedIframeHosts:
-      - www.youtube.com
-```
-
-A `backend.csp` exception is also required:
-
-```yaml
-backend:
-  csp:
-    connect-src: ['https:']
-    frame-src: 
-      - https://www.youtube.com  # Add more hosts as needed
-```
+    ```yaml
+    techdocs:
+      sanitizer:
+        allowedIframeHosts:
+          - www.youtube.com
+    ```
+    
+    And, your admin must also add a `backend.csp` exception to the `app-config.yaml`:
+    
+    ```yaml
+    backend:
+      csp:
+        connect-src: ['https:']
+        frame-src: 
+          - https://www.youtube.com  # Add more hosts as needed
+    ```
