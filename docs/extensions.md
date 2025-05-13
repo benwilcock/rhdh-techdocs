@@ -107,7 +107,7 @@ You can align and resize images.
 
 === "Image RESIZE"
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right width="100" }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="400" }
 
 You can add captions to your images.
 
