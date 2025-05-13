@@ -1,8 +1,7 @@
-![Red Hat Developer Hub](./images/hero-banner.jpg){ width="850" }
 
 <iframe
-  width="672"
-  height="378"
+  width="850"
+  height="478"
   src="https://www.youtube.com/embed/LB1w8hjBt5k"
   title="Red Hat Developer Hub Overview"
   frameborder="0"

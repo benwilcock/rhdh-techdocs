@@ -112,8 +112,8 @@ You can align and resize images.
 You can add captions to your images.
 
 <figure markdown>
-  ![Image title](https://dummyimage.com/600x400/){ width="300" }
-  <figcaption>This image now has a caption.</figcaption>
+  ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="300" }
+  <figcaption>Red Hat Developer Hub.</figcaption>
 </figure>
 
 ## Special Lists
@@ -139,7 +139,6 @@ Below is a task list, with done and not done items...
 - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
 - [ ] Vestibulum convallis sit amet nisi a tincidunt
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-
 
 ## MDX truly sane lists
 
@@ -170,14 +169,44 @@ Link with tooltip (using the separate 'reference' syntax).
 
 [example]: https://example.com "I'm a tooltip!"
 
-
 ## Download Links
 
 [A Download Link](./images/backstage-logo-cncf.svg){: download }
-
 
 ## Abbreviations & Acronyms
 
 Define an abbreviation once and wherever it appears on the page it will be underlined. Hover over the underlined abbreviation and the expanded abbreviation is shown as a tool tip. No more wondering what "CNCF" stands for!
 
 *[CNCF]: Cloud Native Compting Foundation
+
+## Video
+
+Add an iFrame containing your video clip into your TechDoc.
+
+<iframe
+  width="672"
+  height="378"
+  src="https://www.youtube.com/embed/LB1w8hjBt5k"
+  title="Red Hat Developer Hub Overview"
+  frameborder="0"
+  allow="picture-in-picture"
+  allowfullscreen></iframe>
+
+Add the video hosting site as an `allowedIframeHost` in the `app-config.yaml` (requires an admin's help):
+
+```yaml
+techdocs:
+  sanitizer:
+    allowedIframeHosts:
+      - www.youtube.com
+```
+
+A `backend.csp` exception is also required:
+
+```yaml
+backend:
+  csp:
+    connect-src: ['https:']
+    frame-src: 
+      - https://www.youtube.com  # Add more hosts as needed
+```
