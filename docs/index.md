@@ -1,12 +1,4 @@
-
-<iframe
-  width="850"
-  height="478"
-  src="https://www.youtube.com/embed/LB1w8hjBt5k"
-  title="Red Hat Developer Hub Overview"
-  frameborder="0"
-  allow="picture-in-picture"
-  allowfullscreen></iframe>
+![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="850" }
 
 Developers love :heart: Red Hat Developer Hub (RHDH)! Developer Hub makes creating, discovering, and managing enterprise software faster and more productive for everyone involved. With Developer Hub, applications and APIs deployed across your organisation become easier to find, easier to understand, and easier to control. Meanwhile, Red Hat's enterprise grade support ensures you get issues resolved quickly, while our growing and fully open source community around Developer Hub (and upstream CNCF Backstage) brings exciting new innovations and enhancements on a regular basis. 
 

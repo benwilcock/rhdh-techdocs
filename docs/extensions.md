@@ -97,26 +97,39 @@ Automatic rendering of Markdown task lists.
 
 ## Images
 
-You can align and resize images.
+You can align, resize, and caption your images. 
 
 === "Image LEFT"
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left width="300" }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left }
+
+    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left }`
 
 === "Image RIGHT"
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right width="300" }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right }
 
-=== "Image RESIZE"
+    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right }`
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="400" }
+=== "Image CENTER & RESIZE"
 
-You can add captions to your images.
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="300" }
 
-<figure markdown>
-  ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="300" }
-  <figcaption>Red Hat Developer Hub.</figcaption>
-</figure>
+    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="300" }`
+
+=== "Image CAPTIONS"
+    
+    <figure markdown>
+      ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="300" }
+      <figcaption>Red Hat Developer Hub.</figcaption>
+    </figure>
+
+    ```html
+    <figure markdown>
+      ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="300" }
+      <figcaption>Red Hat Developer Hub.</figcaption>
+    </figure>
+    ```
 
 ## Special Lists
 
