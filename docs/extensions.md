@@ -102,23 +102,23 @@ Automatic rendering of Markdown task lists.
 
 You can align, resize, and caption your images. Click a tab to see how.
 
-=== "Image LEFT"
+=== "Image LEFT & RESIZE"
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left width="200" }
 
-    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left }`
+    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=left width="200" }`
 
-=== "Image RIGHT"
+=== "Image RIGHT & RESIZE"
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right width="200" }
 
-    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right }`
+    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=right width="200" }`
 
 === "Image CENTER & RESIZE"
 
-    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="300" }
+    ![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="200" }
 
-    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="300" }`
+    `![Red Hat Developer Hub](./images/hero-banner.jpg){ align=center width="200" }`
 
 === "Image CAPTIONS"
     
