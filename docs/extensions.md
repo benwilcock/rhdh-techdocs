@@ -123,13 +123,13 @@ You can align, resize, and caption your images. Click a tab to see how.
 === "Image CAPTIONS"
     
     <figure markdown>
-      ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="300" }
+      ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="200" }
       <figcaption>Red Hat Developer Hub.</figcaption>
     </figure>
 
     ```html
     <figure markdown>
-      ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="300" }
+      ![Red Hat Developer Hub](./images/hero-banner.jpg){ width="200" }
       <figcaption>Red Hat Developer Hub.</figcaption>
     </figure>
     ```
