@@ -1,5 +1,8 @@
 Using the following MKdocs extensions can enhance your TechDocs, making the user experience richer and more appealing for the reader. These samples were developed based on the reference documentation [here](https://squidfunk.github.io/mkdocs-material/reference/). View the source code of this page to discover the correct markup to use for each item displayed below.
 
+!!! tip "View The Source"
+    View the source code of this page to see all the mkdocs extension commands used to create it.
+
 ## Quotes
 
 !!! quote "This is a quote"
@@ -19,13 +22,13 @@ There are lots of types to choose from. You don't have to add a title to an admo
     This callout contains a note.
 
 !!! tip "This is a Tip Card"
-    This callout contains a warning.
+    This callout contains a tip.
 
-???+ question "This Question Can Be Contracted"
-    This is expanded by default (but can be contracted).
+???+ question "This Question Card is Expanded (But Can Be Collapsed)"
+    This card is expanded by default (but can be contracted using the side arrow).
 
-??? tip "This Tip is Contracted (By Default)"
-    This is contracted by default (but can be expanded).
+??? success "This Success Card is Contracted (But Can Be Expanded)"
+    This was contracted by default (but can be expanded using the side arrow).
 
 ## Content Tabs
 
@@ -97,7 +100,7 @@ Automatic rendering of Markdown task lists.
 
 ## Images
 
-You can align, resize, and caption your images. 
+You can align, resize, and caption your images. Click a tab to see how.
 
 === "Image LEFT"
 
@@ -186,9 +189,9 @@ Link with tooltip (using the separate 'reference' syntax).
 
 ## Download Links
 
-Linking to downloads is easy.
+Linking to binary downloads is easy. Clicking the ling starts the download in the browser.
 
-[A Download Link (image)](./images/backstage-icon-color.svg){: download }
+[Click To Download The Banner Image](./images/hero-banner.jpg){: download }
 
 ## Abbreviations & Acronyms
 
@@ -198,7 +201,7 @@ Define an abbreviation once and wherever it appears on the page it will be under
 
 ## Video
 
-You can add an iFrame containing a video clip from YouTube or any other media site into your TechDoc.
+You can add an iFrame containing a video clip from YouTube or another media site.
 
 <iframe
   width="672"
@@ -208,6 +211,17 @@ You can add an iFrame containing a video clip from YouTube or any other media si
   frameborder="0"
   allow="picture-in-picture"
   allowfullscreen></iframe>
+
+```html
+<iframe
+  width="672"
+  height="378"
+  src="https://www.youtube.com/embed/LB1w8hjBt5k"
+  title="Red Hat Developer Hub Overview"
+  frameborder="0"
+  allow="picture-in-picture"
+  allowfullscreen></iframe>
+```
 
 ??? warning "Adding Video Requires Additional RHDH Configuration"
     Your admin must add the media hosting site as an `allowedIframeHost` in the `app-config.yaml`:
