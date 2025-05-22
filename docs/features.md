@@ -1,4 +1,7 @@
-Red Hat Developer Hub helps you and your team deliver better code with greater speed, confidence, and clarity. Here are some highlights of what you can expect when using the Red Hat Developer Hub...
+Red Hat Developer Hub turns Backstage into a "supported and structured framework." It adds 24/7 enterprise support, secure container images, role based access controls, company login systems (like Keycloak), and activity logs. This solves the "Day 2 problem" of open-source tools, which often become hard to manage later. RHDH offers a reliable, secure, and scalable solution for big companies, while still being open-source, flexible and avoiding vendor lock-in.
+
+
+Here are some highlights of what you can expect when using the Red Hat Developer Hub...
 
 !!! success "**Turn-key Portal**"
     One of the key differentiators of Red Hat Developer Hub is that it is a true 'turn-key' solution. Unlike CNCF Backstage, which often requires additional coding effort and manual plugin integration to become fully functional, Red Hat Developer Hub comes ready to run out of the box. It provides a pre-configured, production-ready environment that eliminates the need for extensive setup or deep customization. This streamlined experience allows platform engineering teams to focus on delivering value rather than building and maintaining the developer portal infrastructure.
